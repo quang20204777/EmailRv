@@ -11,10 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 class EmailAdapter(private val dataSet: List<Email>) :
     RecyclerView.Adapter<EmailAdapter.ViewHolder>() {
 
-    /**
-     * Provide a reference to the type of views that you are using
-     * (custom ViewHolder)
-     */
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val avatar: TextView
         val username: TextView
