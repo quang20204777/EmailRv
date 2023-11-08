@@ -10,7 +10,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/pink"
+        android:background="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -27,11 +27,11 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginStart="25dp"
+            android:contentDescription="@string/todo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/menu"
-            android:contentDescription="@string/todo" />
+            app:srcCompat="@drawable/menu" />
 
         <TextView
             android:id="@+id/inbox"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:text="@string/inbox"
-            android:textColor="#616161"
+            android:textColor="#ffffff"
             android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +66,7 @@
         android:layout_margin="16dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:backgroundTint="@color/pink"
+        android:backgroundTint="@color/red"
         android:contentDescription="@string/submit"
         android:src="@drawable/pen"
         app:layout_constraintBottom_toBottomOf="parent"

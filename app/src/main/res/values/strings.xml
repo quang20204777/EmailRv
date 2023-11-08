@@ -3,4 +3,6 @@
     <string name="submit">submit\n</string>
     <string name="inbox">Inbox</string>
     <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="username">Username</string>
 </resources>
